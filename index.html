@@ -1,3 +1,739 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <title>BlueStreet Exotic Car Rentals & Luxury Yacht Rentals</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container pt-3">
+      <img class="img-fluid" src="./image/logo.svg" alt="logo-img" width="160" />
+
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" id="navbtn">
+       <span></span>
+       <span></span>
+       <span></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav mx-5">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">HOME</a>
+          </li>
+
+          <li class="nav-item ms-3">
+            <a href="Rental.html" class="nav-link"> CAR RENTALS</a>
+          </li>
+
+          <li class="nav-item ms-3">
+            <a href="yacht.html" class="nav-link">YACHT RENTAL</a>
+          </li>
+
+          <li class="nav-item ms-3">
+            <a href="retired.html" class="nav-link">RETIRED CARS</a>
+          </li>
+          <li>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    SERVICES
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li>
+                      <a class="dropdown-item" href="#">CORPORATE EXOCTIC CAR RENTALS</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">EVENT EXOTIC CAR RENTALS</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">SELF DRIVE EXOYIC CAR RENTALS</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">WEDDING EXOTIC CAR RENTALS</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">MUSIC VIDEO EXOTIC CAR RENTALS</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">PHOTOSHOOT EXOTIC CAR RENTALS</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item ms-3">
+                  <a href="contact.html" class="nav-link">CONTACT</a>
+                </li>
+                <li>
+                  <a href="tel:08170585143" class="nav-link ms-3">081000000</a>
+                </li>
+
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <img src="./image/applepay.svg" alt="media" class="img-fluid d-none d-sm-block" width="200" />
+        <!-- <div class="check">
+            <a href="#" class="d-none d-sm-block">CHECK AVAILABILITY</a>
+          </div> -->
+      </div>
+    </div>
+  </nav>
+
+  <section class="p-5" id="main">
+    <div class="container text-center">
+      <h1>New York's Elite Exotics</h1>
+      <h6>MANHATTAN | LONG ISLAND | NJ</h6>
+
+      <form>
+      <div id="card">
+        <h3>Car Rental</h3>
+        <div id="card-flex">
+          <p class="mb">Pickup Date</p>
+
+          <input type="date" id="date" required/> <input type="time" id="time" required>
+          <hr />
+          <p>Return Date</p>
+          <input type="date" id="date" required /> <input type="time" id="time" required> <br />
+          <hr />
+
+          <button type="button" id="check-btn">Check Availability</button>
+        </div>
+      </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="px-5 pt-5" id="page2">
+    <div id="page2" class="d-flex">
+      <div id="content" class="mt-5">
+        <h1 class="text-center">The Best Exotic Car Rentals in New York</h1>
+        <p class="mt-3 text-end" id="page2-text">
+          At BlueStreet Exotic Car Rentals we pride ourselves on going above
+          and beyond for our customers. We offer a vast array of cars
+          including Ferrari, Lamborghini, Rolls Royce & more while constantly
+          adding new hot selections.
+        </p>
+      </div>
+      <img src="./image/rigthpic.webp" alt="right" class="img-fluid d-none d-lg-block float-right" id="right-img" />
+    </div>
+  </section>
+
+  <section class="mx-auto">
+    <div class="container">
+      <img src="./image/centerimg.webp" alt="center" id="img-center" class="img-fluid mx-auto d-block" />
+    </div>
+  </section>
+
+  <!-- CARS ORDER -->
+
+  <section id="projects">
+    <div class="container">
+      <div class="project-tile">
+        <a href="#" target="_blank">
+          <img src="https://res.cloudinary.com/dxqgshzri/image/upload/v1664610841/car1_xbqwwl.webp" id="project__img" />
+          <figcaption>
+            <img src="./image/lambo.png" alt="icon" id="icon" />
+            <span>
+              Lamborghini Urus <br />
+              <label class="text-start"> 4 Hrs: $899</label>
+            </span>
+            <button id="order-btn">
+              24 hr Special <br />
+              $1,699
+            </button>
+          </figcaption>
+        </a>
+
+        <a href="#" target="_blank">
+          <img src="https://res.cloudinary.com/dxqgshzri/image/upload/v1664611005/car2_w5qtfc.webp" id="project__img" />
+          <figcaption>
+            <img src="./image/ferrari.png" alt="icon" id="icon" />
+            <span>
+              Ferrari 488 GTB <br />
+              4 Hrs: $899
+            </span>
+            <button id="order-btn">
+              24 hr Special <br />
+              $1,699
+            </button>
+          </figcaption>
+        </a>
+
+        <a href="#" target="_blank">
+          <img src="https://res.cloudinary.com/dxqgshzri/image/upload/v1664611016/car3_puyyhm.webp" id="project__img" />
+          <figcaption>
+            <img src="./image/lambo.png" alt="icon" id="icon" />
+            <span>
+              Lamborghini Huracan Spyder <br />
+              <label class="text-start"> 4 Hrs: $899</label>
+            </span>
+            <button id="order-btn">
+              24 hr Special <br />
+              $1,699
+            </button>
+          </figcaption>
+        </a>
+
+        <a href="#" target="_blank">
+          <img src="https://res.cloudinary.com/dxqgshzri/image/upload/v1664611030/car4_fxjtgh.webp" id="project__img" />
+          <figcaption>
+            <img src="./image/mclarenlogo.png" alt="icon" id="icon" />
+            <span>
+              McLaren 600lt <br />
+              4 Hrs: $899
+            </span>
+            <button id="order-btn">
+              24 hr Special <br />
+              $1,699
+            </button>
+          </figcaption>
+        </a>
+
+        <a href="#" target="_blank">
+          <img src="https://res.cloudinary.com/dxqgshzri/image/upload/v1664611046/car5_nv8fnd.webp" id="project__img" />
+          <figcaption>
+            <img src="./image/bentley.png" alt="icon" id="icon" />
+            <span>
+              Bentley Continental GT Convertible <br />
+              4 Hrs: $899
+            </span>
+            <button id="order-btn">
+              24 hr Special <br />
+              $1,699
+            </button>
+          </figcaption>
+        </a>
+
+        <a href="#" target="_blank">
+          <img src="https://res.cloudinary.com/dxqgshzri/image/upload/v1664611056/car6_ncauol.webp" id="project__img" />
+          <figcaption>
+            <img src="./image/lambo.png" alt="icon" id="icon" />
+            <span>
+              Lamborghini Huracan Coupe<br />
+              4 Hrs: $899
+            </span>
+            <button id="order-btn">
+              24 hr Special <br />
+              $1,699
+            </button>
+          </figcaption>
+        </a>
+      </div>
+
+      <div id="move" class=" text-center mt-5">
+        <button type="button" id="view-btn">VIEW FULL CAR FLEET
+          <img src="./image/arrow-right-solid.svg" alt="#" width="40" class="img-fluid" id="arrow">
+        </button>
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="p-5 text-center mt-5" id="rentage">
+    <div class="container">
+      <h2>Rent by Car Make</h2>
+      <p class="mt-2 lead">
+        Select a car rental make by choosing a logo below
+      </p>
+
+      <!-- <marquee>
+            <img src="./image/bentley.png" alt="move" id="moving-icon">
+            <img src="./image/mclarenlogo.png" alt="move"  id="moving-icon">
+            <img src="./image/bmw.webp" alt="move" id="moving-icon" width="5">
+            <img src="./image/ferrari.png" alt="move"  id="moving-icon">
+            <img src="./image/lambo.png" alt="move" id="moving-icon">
+          </marquee> -->
+    </div>
+  </section>
+
+  <section id="bg-cover" class="p-5">
+    <div class="container">
+      <div class="text-center">
+        <img src="./image/cta-logo.webp" alt="#" class="img-fluid mt-5" />
+        <h1>MANHATTAN VIP DINING EXPERIENCE</h1>
+        <h3>49 W 20th St, New York, NY 10011</h3>
+        <div class="row">
+          <p class="col">Prix Fixe Dinner</p>
+          <p class="col">VIP Booth Table</p>
+          <p class="col-md">Bottle Of Champagne</p>
+          <p class="col-md">VIP Parking</p>
+        </div>
+      </div>
+    </div>
+    <div id="move" class="text-center justify-content-center align-items-center">
+      <button  id="view-btn">CONTACT US
+      <img src="./image/arrow-right-solid.svg" alt="#" width="30" class="img-fluid" id="arrow">
+    </button>
+    </div>
+  </section>
+
+  <section class="p-5 " id="require">
+    <div class="container">
+      <h1 class="text-center">RENTAL REQUIREMENTS</h1>
+      <div class="d-sm-flex align-items-center justify-content-center mt-5" id="req-just">
+        <div>
+          <img src="./image/phone.webp" alt="" class="img-fluid" id="phone-icon" />
+        </div>
+        <div id="req2">
+          <img src="./image/icon-1.webp" alt="img" />
+          <h3>DRIVERS LICENSE</h3>
+          <p class="text-start">
+            Renters must be 21+ and a valid Drivers License
+          </p>
+
+          <img src="./image/icon-2.webp" alt="img" />
+          <h3>INSURANCE</h3>
+          <p>All renters must have valid Matching Insurance</p>
+
+          <img src="./image/icon-3.webp" alt="img" />
+          <h3>DRIVERS LICENSE</h3>
+          <p class="text-start">
+            Renters must be 21+ and a valid Drivers License
+          </p>
+
+          <img src="./image/icon-4.webp" alt="img" />
+          <h3>DRIVERS LICENSE</h3>
+          <p class="text-start">
+            Renters must be 21+ and a valid Drivers License
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-5" id="bg2">
+    <div class="container">
+      <div class="text-start justify-content-center" id="Exotic_maimi">
+        <img src="./image/blustreet_miami_logo.webp" alt="maimi" class="img-fluid" id="exotic-img" width="200" />
+
+        <h1>Exotic Car Rentals in Miami</h1>
+        <p class="mt-3">
+          BluStreet Exotics is your go-to destination in Miami to treat
+          yourself to a fun-filled exhilarating experience by spending time
+          behind the wheel of an exotic car. When it is all about the drive,
+          choose BluStreet and accelerate forward in style as you rent exotic
+          cars in Miami for yourself or your business.
+        </p>
+        <div id="move" class="mt-4">
+          <button  id="view-btn">Exotic Car Rentals in Miami
+            <img src="./image/arrow-right-solid.svg" alt="#" width="30" class="img-fluid " id="arrow">
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-5" id="require">
+    <div class="container text-center justify-content-center">
+      <h3>Exotic Car Rental Services</h3>
+      <p class="lead">
+        BluStreet provides the best exotic car rental services for both people
+        and businesses
+      </p>
+      <div class="row mt-5">
+        <div class="col-md mb-4 border">
+          <img src="./image/icon/icon1.webp" alt="#" class="img-fluid mb-3 mt-3" />
+          <h2>Corporate Exotic Car Rental</h2>
+          <p class="lead">
+            Make reservations for our exotic cars and luxury cars for your
+            professional business and corporate events. We allow businesses to
+            put decals on our exotic cars
+          </p>
+          <a href="#" type="button" class="mt-5 mb-4">CORPORATE CAR RENTALS --></a>
+        </div>
+
+        <div class="col-md mb-4 border">
+          <img src="./image/icon/icon2.webp" alt="#" class="img-fluid mb-3 mt-3" />
+          <h2>Event Exotic Car Rental</h2>
+          <p class="lead">
+            We are the top supplier for exotic car rallies and events. If you
+            are interested in showing up to see our exotic cars feel free to
+            contact us for our favorites
+          </p>
+          <a href="#" type="button" class="mt-5 mb-4">EVENT CAR RENTALS --></a>
+        </div>
+
+        <div class="col-md mb-4 border">
+          <img src="./image/icon/icon3.webp" alt="#" class="img-fluid mb-3 mt-3" />
+          <h2>Music Video Exotic Car Rental</h2>
+          <p class="lead">
+            Exotic car rental or luxury car rental for your next music video.
+            Our exotic cars are perfect for media and filming purposes
+          </p>
+          <a href="#" type="button" class="mt-5 mb-4">MUSIC VIDEO CAR RENTALS --></a>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md mb-4 border">
+          <img src="./image/icon/icon4.webp" alt="#" class="img-fluid mb-3 mt-3" />
+          <h2>Photoshoot Exotic Car Rental</h2>
+          <p class="lead">
+            Hire BlueStreet for your next exotic car photoshoot. We have over
+            15 years of experience in the entertainment and filming industry
+          </p>
+          <a href="#" type="button" class="mt-5 mb-4">PHOTOSHOOT CAR RENTALS --></a>
+        </div>
+
+        <div class="col-md mb-4 border">
+          <img src="./image/icon/icon5.webp" alt="#" class="img-fluid mb-3 mt-3" />
+          <h2>Self Drive Exotic Car Rental</h2>
+          <p class="lead">
+            Exotic car rental for a weekend or even longer for a superior self
+            drive rental experience, to drive around New York, New Jersey or
+            anywhere in the US
+          </p>
+          <a href="#" type="button" class="mt-5 mb-4">SELF DRIVE CAR RENTALS --></a>
+        </div>
+
+        <div class="col-md mb-4 border">
+          <img src="./image/icon/icon7.webp" alt="#" class="img-fluid mb-3 mt-3" />
+          <h2>Wedding Exotic Car Rental</h2>
+          <p class="lead">
+            We have provided over 15,000 successful weddings in the past 10
+            years for New York wedding luxury car rentals which makes us the
+            most experienced company in the space
+          </p>
+          <a href="#" type="button" class="mt-5 mb-4">WEDDING CAR RENTALS --></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-5 text-center" id="txt-note">
+    <div class="containr">
+      <div class="text-light text-start" id="display-txt">
+        <div class="txt1">
+          <h1>New York Exotic Car Rentals</h1>
+          <p>
+            Drive the wow factor and cause others to rubberneck as you roll in
+            style.
+          </p>
+          <p>
+            BluStreet Exotics has an extensive and showstopping inventory of
+            exotic car rentals available in New York.
+          </p>
+          <p>
+            Roll to your destination in an exotic car while experiencing the
+            most luxury car amenities and features without maintenance,
+            commitment, and purchasing investment.
+          </p>
+
+          <p>
+            BluStreet Exotics is the go-to destination for standout service
+            for your exotic rental car needs. Experience the thrill of driving
+            and arriving in the exotic car of your choice. Our stock includes
+            Lamborghini, Ferrari, Rolls Royce, Corvette, BMW, McLaren, and
+            more!
+          </p>
+          <p>
+            Whether it's business or pleasure, embrace an exhilarating driving
+            experience as you enjoy the power behind the wheel of a
+            magnificent exotic car.
+          </p>
+
+          <p>
+            Discover why our exotic car rental in New York is the top choice
+            by discerning car rental customers. If you're ready for a
+            spectacular breathtaking experience, trust us for your exotic car
+            rental needs.
+          </p>
+
+          <div id="move" class="mt-4 text-center">
+            <button  id="view-btn">Rent an Exotic Car in New York
+              <img src="./image/arrow-right-solid.svg" alt="#" width="30" class="img-fluid " id="arrow">
+            </button>
+          </div>
+        </div>
+        <div class="txt2">
+          <h1>Luxury Yacht Rentals in New York</h1>
+          <p>
+            Don't leave it to the elite few to afford an exotic and luxury
+            yacht. Instead, sail away and embrace extravagance on a yacht!
+            Live a dream and relax like royalty as you cruise with our yacht
+            rental for a week or day! Vacation with friends or family, host a
+            bachelorette party, or celebrate a milestone, enjoy the sunshine
+            and too many amenities to list as you make experience something
+            new and memories on a yacht!
+          </p>
+          <p>
+            We have various sizes of impressive yachts to accommodate
+            weddings, corporate events, retreats, and celebrations of all
+            sizes. So voyage with us on the perfect size rental yacht for your
+            occasion. Count on us to help you navigate as we provide stellar
+            service with our yacht rental in NYC services for proms,
+            birthdays, holidays, and more.
+          </p>
+          <p>
+            BlueStreet is a leader in providing exotic and luxury yacht
+            rentals in NYC, Manhattan, Queens, and NJ. We provide some of the
+            best first-class exotic yacht rentals available! Take advantage of
+            an opportunity to provide your guests with a once-in-a-lifetime
+            experience. So get in touch today and reserve your special dates
+            today so you can indulge in luxury and let stress float away.
+          </p>
+          <div id="move" class="mt-4 text-center">
+            <button  id="view-btn">Rent a Luxury Yatch in New York
+              <img src="./image/arrow-right-solid.svg" alt="#" width="30" class="img-fluid " id="arrow">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-5">
+    <div class="container text-center">
+      <h2>CUSTOMER FEEDBACK</h2>
+      <p class="lead">What our customers say about their experience</p>
+      <div class="comments">
+        <div class="ct1">
+          <p class="m-4">
+            BlueStreet was a great company to rent from. They have a wide variety of vehicles. I rented
+            a Corvette C8 to see if i wanted to buy it and the staff was so helpful, friendly and
+            got me in and outron my way. I wuld definitely recommend them and i will be back for the 
+            Excalede
+          </p>
+          <img src="./image/quote.webp" alt="#" id="img-qoutes" class="mt-5" />
+        </div>
+        <div class="ct1">
+          <p class="m-4">
+            Absolutely great experience. From beginning to end, seamless. Easier then renting at your
+            typical rental car rental agency. Cars are in perfect condition inside and out. Can't wait to 
+            rent again
+          </p>
+          <img src="./image/quote.webp" alt="#" id="img-qoutes" class="mt-5" />
+        </div>
+        <div class="ct1">
+          <p class="m-4">
+            Blue street auto best place to rental Exotic cars at. Services was very good. This will 
+            be my number one spot. I will spread the word. Cars are in oustanding shape and clean 
+            customer service very good. Thank you James and Zain for all your help to make this event
+            worthwhile.
+          </p>
+          <img src="./image/quote.webp" alt="#" id="img-qoutes" class="mt-5" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pt-5">
+    <div class="container">
+      <div class="text-center">
+        <h2>Frequently Asked Questions</h2>
+        <p class="mt-4 lead">
+          Get answers to questions from other exotic car rental customers
+        </p>
+      </div>
+
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne">
+              What is an exotic car rental?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <p class="mt-5">
+                We ooh and ahh at them when we see them on the road, in a
+                commercial, photo, or movie. Now’s your chance to get in an
+                exotic car and make any occasion better. An exotic car rental
+                is an opportunity to live a dream, arrive in style, be a big
+                shot behind the wheel of a luxury, performance, or exotic car
+                that most of us only dream of driving or owning.
+              </p>
+              <p>
+                When you need to make a statement with something exciting and
+                flashy, get behind the wheel with our exotic car rentals from
+                BluStreet exotics. If you’re looking for something swanky,
+                expensive, sleek, and extraordinary, we help you proudly enjoy
+                the eye candy and drive in a loud, classy, luxury exotic car
+                rental.
+              </p>
+              <p>
+                We have a wide selection of luxurious and exotic cars
+                available to rent to make any occasion memorable. If it is a
+                special occasion, you’ll be arriving as if the red carpet is
+                rolled out for you as heads turn. Let the exotic car rental
+                set the stage with attitude and style as you make an
+                entrance—something classy awaits. So reach out today and
+                experience the thrill of an exotic car rental.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo">
+              Why is BlueStreet the best choice fot exotic car rentals?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <p class="mt-5">
+                BluStreet exotics offers a superior car rental service with a
+                wide variety of luxury, performance, and exotic cars. Our wide
+                selection of breath-taking exotic car rentals offers you the
+                top brands and models. We are passionate about each exotic car
+                rental available as each one sets our clients up to win with
+                an experience. But, it’s much more than a car rental service.
+                You’re choosing to rent an exotic car for a special reason –
+                you deserve the best, and we provide you with the best
+                experience possible!
+              </p>
+              <p>
+                We cater to our clients with unmatched customer service, a
+                wide selection of luxury and exotic vehicles and accommodate
+                your special request for various events where you may need the
+                exotic car rental to perform. So whether the exotic car is
+                sitting still in a photoshoot, stealing the show for a minute
+                in a video, transporting the wedding party or bride and groom,
+                spending a day on the town behind the wheel of your dream
+                exotic car, you’ll enjoy the thrill of being behind the wheel.
+                At the same time, you make memories with one of our amazing
+                exotic car rentals.
+              </p>
+              <p>
+                When dependability and reliability matter, choose BluStreet
+                Exotics to deliver on time so you can make impressions and
+                have fun driving an exotic rental car. Get in touch today to
+                reserve your exotic car for your next event to stand out from
+                the crowd!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-5 bg-primary text-light">
+    <div class="container">
+      <div class="text-center justify-content-center align-items-center">
+        <h4>NEWSLETTER</h4>
+        <h2>
+          Subscribe To Our Newsletter For New Updates
+        </h2>
+        <form method="post" action="action.php">
+          <div class="input-group news-input mt-3 " id="input-size">
+            <input type="email" id="email-submit" class="form-control" placeholder="Email address" aria-label="username"
+              aria-describedby="btn2" />
+            <button class="btn btn-light btn-lg " id="email-submit" type="button" id="btn2">
+              Send
+            </button>
+          </div>
+      </div>
+      </form>
+
+      <img src="./image/04_Green_car_png.webp" alt="#" class="img-fluid mt-5" id="green-car">
+    </div>
+    </div>
+  </section>
+
+  <section class="pt-5 text-light bg-dark ">
+    <div class="container">
+      <div id="display-txt" class=" justify-content-between ">
+
+        <div class="text-start mb-5 ">
+          <h1>
+            Manhattan | Long Island | NJ
+          </h1>
+          <p class="mb-5">
+            Take the road in style with an exotic car rental. Whether it is a once-in-a-lifetime experience of enjoying
+            the exhilaration that comes with this ride, an annual event, or business; our team at BluStreet will help
+            you have the adventure you want in the exotic car rental of your dreams! We serve the greater NYC, Long
+            Island, and NJ areas with exotic car rentals to meet your needs and exceed your expectations. When you rent
+            exotic cars, you get to fulfill childhood dreams without taking on the payments or maintenance of owning a
+            luxury or exotic car!
+          </p>
+        </div>
+
+        <div class="d-flex text-center align-items-center">
+          <div>
+            <img src="./image/footer-phone.webp" alt="#" class="img-fluid">
+          </div>
+          <div class="mx-4">
+            <h2>(234) 872-73899</h2>
+            <h4> OPEN 7 DAYS A WEEK</h4>
+            <p>WEEKDAYS | 9:00 AM - 9:00 PM</p>
+            <p>WEEKDAYS | 9:00 AM - 9:00 PM</p>
+
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <footer class="p-5 text-start text-light justify-content-between align-items-center bg-dark">
+    <div class="container" id="footer">
+
+      <div class="row justify-content-center align-items-center g-5">
+        <div class="col-md">
+          <img src="./image/blustreet_exotics_logo.svg" alt="#" class="img-fluid" style="width: 15em;">
+      <p class="mt-5">
+        We specialize in providing exotic car rental in New York City, Long Island, Manhattan, Queens, and New Jersey.
+        Experience exotic car rentals for your next special event. Feel the power and prestige that transpires in your
+        own mind as you roll in an exotic car. We'll super-serve you so you can make an impression whether you are
+        having fun, dazzling a date, shifting gears with your family and ready to see expressions that are priceless, or
+        going another career direction or showing taking an investor out, stay on the road to success - rent exotic cars
+        with us.
+      </p>
+      <img src="./image/backg_files/social-icons-whits-01.70da75c5628c.svg" alt="#" class="img-fluid" style="width: 2.2em;">
+      <img src="./image/backg_files/social-icons-whits-02.ded7fd0a307f.svg" alt="#" class="img-fluid" style="width: 2.2em;">
+
+        </div>
+        <div class="col-md">
+          <h3 class="mt-5">Quick Links</h3>
+          <a href="#">Exotic Car Rental New York</a><br>
+          <a href="#">Exotic Car Rental Miami</a><br>
+          <a href="#">Exotic Car Rental Hamptons
+          </a><br>
+          <a href="#">Exotic Car Rental New Jersey</a><br>
+          <a href="#">Affiliate</a><br>
+          <a href="#">About Us</a><br>
+          <a href="#">Services</a><br>
+          <a href="#">Frequently Asked Questions</a><br>
+          <a href="#">Check Availability</a><br>
+          <a href="#">Contact</a><br>
+          <a href="#">Terms & Conditions</a><br>
+        </div>
+      </div>
+    </div>
+
+    <div class="copy mt-5">
+      <p>
+        &copy;  Copyright 2022 BluStreet Exotic Car Rentals | Exotic Car Rentals Near Me
+      </p>
+    </div>
+  </footer>
+
+
+
+ 
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+=======
 <!DOCTYPE html>
 <html lang="en">
 
@@ -732,4 +1468,5 @@
     crossorigin="anonymous"></script>
 </body>
 
+>>>>>>> d3d8818e5b74c0c1f9f40663ae250423c41b18f1
 </html>
